@@ -86,7 +86,7 @@ export default function HowItWorksPage() {
 
             <div className="relative aspect-video rounded-2xl overflow-hidden bg-muted border border-border">
               <iframe
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                src="https://www.youtube.com/embed/AzxX-qMCoL8?si=SZxrGclHugJk8w-G"
                 title="How Ishaara Works - Complete Demo"
                 className="absolute inset-0 w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
