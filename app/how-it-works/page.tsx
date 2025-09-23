@@ -11,6 +11,7 @@ export default function HowItWorksPage() {
       title: "Download & Setup",
       description: "Download Ishaara from the app store and complete the quick setup process",
       icon: Download,
+      imageSrc: "/Demo 0.jpeg",
       details: [
         "Available on Android and iOS",
         "Quick 2-minute setup",
@@ -23,6 +24,7 @@ export default function HowItWorksPage() {
       title: "Camera Recognition",
       description: "Point your device camera at sign language gestures for instant recognition",
       icon: Camera,
+      imageSrc: "/Demo 2.jpeg",
       details: [
         "Works in various lighting conditions",
         "Supports multiple camera angles",
@@ -35,6 +37,7 @@ export default function HowItWorksPage() {
       title: "AI Processing",
       description: "Advanced AI algorithms analyze and interpret the sign language gestures",
       icon: Brain,
+      imageSrc: "/Demo 3.jpeg",
       details: [
         "95% accuracy recognition rate",
         "Trained on Indian Sign Language",
@@ -47,6 +50,7 @@ export default function HowItWorksPage() {
       title: "Audio Output",
       description: "Clear, natural audio output in your preferred language and voice",
       icon: Volume2,
+      imageSrc: "/Demo 3.jpeg",
       details: [
         "Multiple Indian languages supported",
         "Natural voice synthesis",
@@ -143,9 +147,9 @@ export default function HowItWorksPage() {
                   <div className="flex-1">
                     <div className="aspect-square bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl flex items-center justify-center">
                       <img
-                        src={`/step-${step.number}-demonstration.jpg?height=400&width=400&query=step ${step.number} ${step.title.toLowerCase()} demonstration for sign language app`}
+                        src={step.imageSrc}
                         alt={`Step ${step.number}: ${step.title}`}
-                        className="w-full h-full object-cover rounded-2xl"
+                        className="w-full h-full object-contain rounded-2xl"
                       />
                     </div>
                   </div>
