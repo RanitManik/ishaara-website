@@ -41,7 +41,7 @@ export default function DownloadPage() {
               asChild
             >
               <Link
-                href="https://github.com/ParthManna/MediScan-App/raw/refs/heads/main/APK%20files/Mediscan.apk"
+                href="https://github.com/ParthManna/Ishaara/raw/refs/heads/main/Apk/Ishaara.apk"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -138,7 +138,7 @@ export default function DownloadPage() {
               asChild
             >
               <Link
-                href="https://github.com/ParthManna/MediScan-App/raw/refs/heads/main/APK%20files/Mediscan.apk"
+                href="https://github.com/ParthManna/Ishaara/raw/refs/heads/main/Apk/Ishaara.apk"
                 target="_blank"
                 rel="noopener noreferrer"
               >

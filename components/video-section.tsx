@@ -22,7 +22,7 @@ export function VideoSection() {
         <div className="max-w-4xl mx-auto mb-12">
           <div className="relative aspect-video rounded-xl overflow-hidden bg-muted">
             <iframe
-              src="https://www.youtube.com/embed/videoseries?list=PLFjydPMg4DapfRTBMokl09Ht-fhMOAYf6"
+              src="https://www.youtube.com/embed/AzxX-qMCoL8?si=SZxrGclHugJk8w-G"
               title="Indian Sign Language Tutorial Playlist"
               className="absolute inset-0 w-full h-full"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
