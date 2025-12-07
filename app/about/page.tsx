@@ -179,7 +179,7 @@ export default function AboutPage() {
                 Download App
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
-              <Button size="lg" variant="outline" className="border-primary/20 hover:bg-primary/10 bg-transparent">
+              <Button size="lg" variant="outline" className="border-primary/20 hover:bg-primary/10 hover:text-foreground bg-transparent">
                 Join Community
               </Button>
             </div>

@@ -112,7 +112,7 @@ export function HeroSection() {
             asChild
             variant="outline"
             size="lg"
-            className="text-lg px-8 py-6 min-w-[200px] border-primary/20 hover:bg-primary/10 bg-transparent focus:ring-2 focus:ring-ring focus:ring-offset-2"
+            className="text-lg px-8 py-6 min-w-[200px] border-primary/20 hover:bg-primary/10 hover:text-foreground bg-transparent focus:ring-2 focus:ring-ring focus:ring-offset-2"
           >
             <Link href="#demo-video" className="flex items-center gap-2">
               <Play className="w-5 h-5" aria-hidden="true" />

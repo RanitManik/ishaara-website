@@ -3,6 +3,7 @@ import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/ca
 import { Download, Star, Shield, Zap, Users, Clock } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
+import { GooglePlayButton } from "@/components/base/buttons/app-store-buttons"
 
 export default function DownloadPage() {
   return (
@@ -12,7 +13,7 @@ export default function DownloadPage() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-8">
             <Image
-              src="/ishaara-logo-circle.png"
+              src="/logo.png"
               alt="Ishaara Logo"
               width={96}
               height={96}
@@ -35,20 +36,12 @@ export default function DownloadPage() {
               <Clock className="w-5 h-5 mr-2" />
               iOS - Coming Soon
             </Button>
-            <Button
+            <GooglePlayButton
+              href="https://github.com/ParthManna/Ishaara/raw/refs/heads/main/Apk/Ishaara.apk"
+              target="_blank"
+              rel="noopener noreferrer"
               size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg"
-              asChild
-            >
-              <Link
-                href="https://github.com/ParthManna/Ishaara/raw/refs/heads/main/Apk/Ishaara.apk"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Download className="w-5 h-5 mr-2" />
-                Download for Android
-              </Link>
-            </Button>
+            />
           </div>
 
           <div className="flex items-center justify-center gap-6 text-sm text-muted-foreground">
@@ -132,20 +125,12 @@ export default function DownloadPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button
+            <GooglePlayButton
+              href="https://github.com/ParthManna/Ishaara/raw/refs/heads/main/Apk/Ishaara.apk"
+              target="_blank"
+              rel="noopener noreferrer"
               size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg"
-              asChild
-            >
-              <Link
-                href="https://github.com/ParthManna/Ishaara/raw/refs/heads/main/Apk/Ishaara.apk"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Download className="w-5 h-5 mr-2" />
-                Download Now
-              </Link>
-            </Button>
+            />
             <Button
               size="lg"
               variant="outline"

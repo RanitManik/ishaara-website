@@ -33,7 +33,7 @@ export function Navigation() {
           >
             <div className="w-10 h-10 rounded-full overflow-hidden" aria-hidden="true">
               <Image
-                src="/ishaara-logo-circle.png"
+                src="/logo.png"
                 alt="Ishaara Logo"
                 width={40}
                 height={40}

@@ -224,7 +224,7 @@ export default function FeaturesPage() {
                 asChild
                 variant="outline"
                 size="lg"
-                className="border-primary/20 hover:bg-primary/10 bg-transparent"
+                className="border-primary/20 hover:bg-primary/10 hover:text-foreground bg-transparent"
               >
                 <Link href="/how-it-works">Learn How It Works</Link>
               </Button>

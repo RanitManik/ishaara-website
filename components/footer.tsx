@@ -10,7 +10,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center space-x-3 mb-4">
               <Image
-                src="/ishaara-logo-circle.png"
+                src="/logo.png"
                 alt="Ishaara Logo"
                 width={40}
                 height={40}

@@ -231,7 +231,7 @@ export default function HowItWorksPage() {
                 asChild
                 variant="outline"
                 size="lg"
-                className="border-primary/20 hover:bg-primary/10 bg-transparent"
+                className="border-primary/20 hover:bg-primary/10 hover:text-foreground bg-transparent"
               >
                 <Link href="/features" className="flex items-center gap-2">
                   Explore Features

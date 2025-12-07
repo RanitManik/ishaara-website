@@ -64,7 +64,7 @@ export function VideoSection() {
         </div>
 
         <div className="text-center mt-8">
-          <Button asChild variant="outline" className="border-primary/20 hover:bg-primary/10 bg-transparent">
+          <Button asChild variant="outline" className="border-primary/20 hover:bg-primary/10 hover:text-foreground bg-transparent">
             <Link href="https://www.youtube.com/@ISLRTC" target="_blank" rel="noopener noreferrer">
               View Full Channel
             </Link>
