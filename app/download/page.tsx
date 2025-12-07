@@ -37,7 +37,7 @@ export default function DownloadPage() {
               iOS - Coming Soon
             </Button>
             <GooglePlayButton
-              href="https://github.com/ParthManna/Ishaara/raw/refs/heads/main/Apk/Ishaara.apk"
+              href="https://play.google.com/store/apps/details?id=com.ishaara.signify"
               target="_blank"
               rel="noopener noreferrer"
               size="lg"
@@ -126,7 +126,7 @@ export default function DownloadPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <GooglePlayButton
-              href="https://github.com/ParthManna/Ishaara/raw/refs/heads/main/Apk/Ishaara.apk"
+              href="https://play.google.com/store/apps/details?id=com.ishaara.signify"
               target="_blank"
               rel="noopener noreferrer"
               size="lg"
